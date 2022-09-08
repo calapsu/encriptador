@@ -1,0 +1,129 @@
+body {
+   
+}
+
+.container {
+ margin: 0 auto;
+ width: 960px;
+ height: 760px;
+ padding: 5px;
+ background-color:  #F3F5FC;
+ border-radius: 15px;
+ border: solid 1px rgb(173, 173, 173);
+}
+
+.logo {
+    width: 100%;
+    float: left;
+   
+}
+
+.left {
+    float: left;
+    width: 65%;
+    height: 70%;
+    border-radius: 24px;
+    
+}
+
+.right {
+   background-color: white;
+   float: right;
+   border-radius: 24px;
+   width: 35%;
+   height: auto;
+}
+
+.left-button {
+    float: left;
+    width: 65%;
+    height: auto;
+    border-radius: 24px;
+    
+}
+
+.logoImg {
+    margin-top: 1%;
+    margin-left: 5%;
+    float: inherit;
+}
+
+.text-input {
+    float: left;
+    margin-left: 20%;
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background:  #F3F5FC;
+    
+}
+
+.text-input::placeholder {
+    color: rgba(10, 56, 113, 1);
+}
+
+.imgDer {
+    margin-top: 25%;
+    width: 90%;
+    height: auto;
+   
+}
+
+.texto {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.texto2{
+    margin-top: 30px;
+    float: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: rgba(10, 56, 113, 1);
+    width: 80%;
+    height: 70%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    text-align: center;
+}
+
+.btn-encriptar {
+    padding: 15px;
+    width: 40%;
+    height: 5%;
+    background: rgba(10, 56, 113, 1);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    margin-left: 5%;
+}
+
+.btn-desincriptar {
+    padding: 15px;
+    width: 40%;
+    height: 20%;
+    background: rgb(216, 216, 216);
+    border: none;
+    border-radius: 25px;
+    color: rgba(10, 56, 113, 1);
+    margin-left: 5%;
+}
+
+#copiar {
+    margin-left: 34%;
+    margin-top: 30%;
+    padding: 10px;
+    width: 40%;
+    width: 80px;
+    border: none;
+    border-radius: 25px;
+    background: #D8DFE8;
+    display: none;
+    
+    
+}
